@@ -23,7 +23,7 @@ const selectBtn = document.querySelectorAll('li');
 const selectTxt = document.querySelector('#text');
 // function:
 const changeColor = (i)=>{
-    const color = i.classList[0];
+    const color = i.classList;
     body.classList.replace (body.classList[0] ,color);
     document.getElementById("text").innerHTML= color;
     // set checkbox
